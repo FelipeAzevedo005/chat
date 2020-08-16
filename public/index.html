@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="/socket.io/socket.io.js"></script>
+        
+        <link rel="stylesheet" href="style.css">
+
+        <title>Chat</title>
+    </head>
+
+    <body>
+        <div id="login">
+            <h2>Enter your nickname</h2>
+            <form action="">        
+                <input type="text" name="nickname" maxlenght="14" required="true">
+                <button>Join</button>
+            </form>   
+        </div>
+
+        <main>
+            <form id="chat">
+                <div class="message-log"></div>
+
+                <div class="submit-block">
+                    <input type="text" name="message" placeholder="Type a message" autocomplete="off">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </main>
+
+        <script src="client.js"></script>
+    </body>
+</html>
