@@ -163,6 +163,7 @@ main #chat .message .message-body {
     text-align: center;
     color: white;
 }
+
 #login form {
     width: 430px;
     display: flex;
@@ -191,6 +192,8 @@ main #chat .message .message-body {
 #login input::placeholder {
     color: #aaa;
 }
+
+.material-icons.md-36 { font-size: 36px; }
 
 @media(max-width: 660px) {
     main {

@@ -7,6 +7,7 @@
         <script src="/socket.io/socket.io.js"></script>
         
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Round">
 
         <title>Chat</title>
     </head>
@@ -16,7 +17,9 @@
             <h2>Enter your nickname</h2>
             <form action="">        
                 <input type="text" name="nickname" maxlenght="14" required="true">
-                <button>Join</button>
+                <button>
+                    <i class="material-icons-round md-36">login</i>
+                </button>
             </form>   
         </div>
 
@@ -26,7 +29,9 @@
 
                 <div class="submit-block">
                     <input type="text" name="message" placeholder="Type a message" autocomplete="off">
-                    <button type="submit">Send</button>
+                    <button type="submit">
+                        <i class="material-icons-round md-36">send</i>
+                    </button>
                 </div>
             </form>
         </main>
