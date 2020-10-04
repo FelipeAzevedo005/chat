@@ -29,6 +29,9 @@ $ npm start
 
 After that, open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+## :memo: License
+This project is under the MIT license. See the [LICENSE](https://github.com/FelipeAzevedo005/chat/blob/master/LICENSE) for more information.
+
 ---
 
 :wave: [Get in touch!](https://www.linkedin.com/in/felipe-azevedo-242144146/)
